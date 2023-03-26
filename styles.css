@@ -1,0 +1,279 @@
+:root {
+  --gray-30: #e1dfdd;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #faf9f8;
+}
+
+/* Remove list styles on ul, ol elements */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Utility classes */
+.relative {
+    position: relative;
+}
+
+.gray-40 {
+  color: #393939;
+}
+
+.gray-30 {
+  color: #7a7574;
+}
+
+.prx4 {
+  padding: 0.5rem;
+}
+
+.button-compound {
+  background-color: hsl(208, 85%, 40%); /* Microsoft Fluent UI color */
+  border: 0; 
+  border-radius: 4px; 
+  height: 30px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display:flex; 
+  align-items:center;
+  color: white;
+  gap: 5px;
+}
+
+.button-compound:hover {
+  background-color: hsla(208, 85%, 40%, 0.9); /* Microsoft Fluent UI color */
+}
+
+.button-compound-gray {
+  background-color: hsl(30, 4%, 78%); /* Microsoft Fluent UI color */
+  border: 0; 
+  border-radius: 4px; 
+  height: 30px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display:flex; 
+  align-items:center;
+}
+
+.button-compound-gray:hover {
+  background-color: hsla(30, 4%, 78%, 0.75);
+}
+
+.active-btn {
+  color: dodgerblue;
+  border-bottom: dodgerblue;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0.2rem 0rem;
+  color: black;
+}
+
+h3 {
+  margin: 0.5rem 0rem;
+}
+
+.block:active {
+  text-decoration: none;
+}
+
+.block:hover {
+  color: dodgerblue;
+}
+/* Page styling */
+.cover {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 20%;
+}
+
+.cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profile-img-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.profile-img-container img {
+    width: 64px;
+    height: auto;
+    border: 4px solid #fff;
+    border-radius: 8px;
+    margin-top: -1.5rem;
+    vertical-align: middle;
+}
+
+.profile-picture {
+    width: 64px;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 8px;
+    margin-top: -1.5rem;
+    vertical-align: middle;
+}
+
+.information {
+    margin: 0.2em;
+}
+
+.description {
+    max-width: 24em;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin: 2rem 0rem 4rem 0rem;
+}
+
+.button-compound-gray img {
+    height: 18px;
+    width: 18px;
+}
+
+.select_mode {
+  text-align: center;
+}
+
+.mode-button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 4px solid rgb(241, 241, 241);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.mode-button:hover {
+  background-color: #e6e6e6;
+}
+
+.mode-button:active {
+  background-color: #fff;
+  color: rgb(30, 144, 255);
+  border-bottom: rgb(30, 144, 255);
+}
+
+.video_card {
+    margin: 0.2rem;
+    border-radius: 6px;
+    padding: 0.2em;
+}
+
+.video_viewer {
+  border-radius: 4px;
+  margin: 0.5rem 0rem;
+}
+
+.video_desc {
+  padding: 8px 0px;
+}
+
+.affiliates {
+  padding: 0.5rem;
+}
+
+.footer {
+  background-color: var(--gray-30);
+  min-height: 5rem; /* TEST */
+  padding: 1rem;
+
+
+}
+
+.footer-profile {
+  width: 64px;
+  height: auto;
+  border: 4px solid white;
+  border-radius: 8px;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+    .profile-img-container img {
+        width: 128px;
+        margin-top: -2rem;
+        border-radius: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .profile-img-container img {
+        width: 156px;
+        margin-top: -4rem;
+        border-radius: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .profile-img-container img {
+        width: 256px;
+        margin-top: -6rem;
+        border-radius: 48px;
+    }
+}
