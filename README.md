@@ -14,4 +14,4 @@ This repository is monitored but with less support due to end user licensing pol
 
 # Feedback
 If you would like to discuss something then feel free to mail me at <a href="mailto:md.ibnjihan@outlook.com">md.ibnjihan@outlook.com</a>.
-Thank you! Take love <3
+Thank you! Take love 🤍
