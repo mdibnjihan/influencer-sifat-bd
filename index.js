@@ -124,7 +124,7 @@ data.videos.forEach(video => {
     videoCol1.appendChild(videoIframe);
 
     const videoCol2 = document.createElement('div');
-    videoCol2.classList.add('ms-Grid-col', 'ms-sm12', 'ms-md71', 'ms-lg8', 'video_desc');
+    videoCol2.classList.add('ms-Grid-col', 'ms-sm12', 'ms-md7', 'ms-lg8', 'video_desc');
 
     const videoTitle = document.createElement('span');
     videoTitle.classList.add('ms-fontWeight-semibold', 'ms-fontSize-32');
