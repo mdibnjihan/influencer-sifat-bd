@@ -1,6 +1,6 @@
 # influencer-sifat-bd
 This repository contains files for Ehsan Haque Sifat’s professional portfolio page which showcases his skills, experience, and achievements.
-I worked with Ehsan Hanque Sifat a affiliate marketer who wanted a portfolio webpage.
+I worked with Ehsan Hanque Sifat an affiliate marketer who wanted a portfolio webpage.
 I developed this webpage for him which is hosted with GitHub pages.
 
 ![image](https://user-images.githubusercontent.com/101347202/227952207-ffa4d0fa-e414-494e-ab22-2b07f3852069.png)
