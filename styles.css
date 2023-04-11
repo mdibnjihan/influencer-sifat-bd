@@ -232,7 +232,6 @@ h3 {
 
 .video_desc {
   padding: 8px 0px;
-
 }
 
 .affiliates {
@@ -249,8 +248,6 @@ h3 {
   background-color: var(--gray-30);
   min-height: 5rem; /* TEST */
   padding: 1rem;
-
-
 }
 
 .footer-profile {
@@ -263,7 +260,7 @@ h3 {
 /* Media queries */
 @media (max-width: 497px) {
     .video-desc {
-        grid-column-start: 1;
+        grid-column-start: -1;
     }
 }
 @media (min-width: 768px) {
